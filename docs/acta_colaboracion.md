@@ -1,7 +1,9 @@
 # Acta de Colaboración
 
 **Proyecto:** Gestor de PQRS - VeteriPet
+
 **Curso:** Algoritmia y Programación 2026-2
+
 **Fecha:** _(20/08/2026)_
 
 ## 1. Objetivo
@@ -61,8 +63,8 @@ _reasignación de tareas, reporte al docente._
 
 | Nombre completo | Firma |
 |---|---|
-| _(Nayeli Vergara Mazo)_ | ____________________ |
-| _(Luz Yadira Ramirez Rojasr)_ | _____________________ |
-| _(Brianda Isabel Saenz Llorente)_ | _____________________ |
-| _(Maximiliano González Lopez)_ | _____________________ |
-| _(ura Jhosceline Hurtado Botero)_ | _____________________ |
+| _Nayeli Vergara Mazo_ | |
+| _Luz Yadira Ramirez Rojasr_ | |
+| _Brianda Isabel Saenz Llorente_ |  |
+| _Maximiliano González Lopez_ | |
+| _Aura Jhosceline Hurtado Botero_ |  |
