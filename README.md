@@ -39,6 +39,9 @@ Me encanta el deporte en especial el voleibol. Esto no solo es un espacio de bie
 * **Nombre Oficial:** VeteriPet UdeA.
 * **Descripción:** Sistema de información de consola desarrollado en Python para la recepción, seguimiento, gestión y generación de estadísticas de Peticiones, Quejas, Reclamos y Sugerencias (PQRS) de atención veterinaria de caninos y felinos para la la veterinaria VeteriPet de la Universidad de Antioquia.
 
+<p align="center">
+ <img width="200" height="832" alt="Un_logo_vectorial_plano_minimalista_e_icnico_para_una_aplica" src="https://github.com/user-attachments/assets/ee4cd92e-e0fb-4cb3-abaf-ef5a4db27261" />
+</p>
 <img width="1248" height="832" alt="Un_logo_vectorial_plano_minimalista_e_icnico_para_una_aplica" src="https://github.com/user-attachments/assets/ee4cd92e-e0fb-4cb3-abaf-ef5a4db27261" />
 
 ## 4. Licencia del Software
@@ -93,7 +96,7 @@ El sistema permite capturar los datos del usuario solicitante, la información d
 1. **Lenguaje de Desarrollo:** El sistema debe estar desarrollado en el lenguaje de programación Python (versión 3.10 o superior) e integrable en entornos como Google Colab.
 2. **Interfaz CLI Usable:** El programa funcionará mediante un menú interactivo en consola de comandos (CLI) limpio, accesible y fácil de operar para el usuario administrador.
 3. **Arquitectura Modular:** El código debe estructurarse modularmente dividiendo las responsabilidades en archivos específicos: validaciones.py, archivos.py, reportes.py y el script principal.
-4. **Programación Orientada a Objetos:** El programa implementará clases y objetos para modelar la información, utilizando la convención del prefijo `c_` en los nombres de las clases.
+4. **Programación Orientada a Objetos:** El programa implementará clases y objetos para modelar la información, utilizando la convención del prefijo 'c_' en los nombres de las clases.
 5. **Comprensión de Listas:** Se deben utilizar mecanismos eficientes de Python como la comprensión de listas para la manipulación y filtrado de datos.
 6. **Documentación y Comentarios:** El código debe contener comentarios explicativos enriquecidos con adjetivos descriptivos en cada elemento para asegurar mantenibilidad y claridad.
 7. **Integridad de Datos:** La manipulación de archivos planos debe asegurar la no duplicidad de id y gestionar correctamente los campos opcionales asignando "N/A" cuando corresponda (como en la dirección).
