@@ -141,7 +141,3 @@ Para desarrollar el sistema de gestión de PQRS se realizarán las siguientes ac
 
 # 7.3 Presupuesto
 
-Para efectos de la práctica académica, se estima una dedicación total de 50 horas de trabajo para el desarrollo del proyecto. El valor del trabajo se calculará tomando como referencia 1 salario mínimo legal vigente (SMLV), de acuerdo con lo establecido en la guía del proyecto.
-
-El presupuesto corresponde principalmente al tiempo dedicado por los integrantes del equipo para realizar las actividades de análisis, diseño, programación, pruebas, documentación y entrega del proyecto.
-
