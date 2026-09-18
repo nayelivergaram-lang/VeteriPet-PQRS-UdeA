@@ -2,10 +2,13 @@
 
 ## 1. Integrantes
 * **Nayeli Vergara Mazo** Apasionada por la fotografía urbana, la lectura y las caminatas al aire libre. Interesada en la apreciación cultural y el aprendizaje constante
+
 * **Luz Yadira Ramirez Rojas** En mi tiempo libre me gusta ver documentales y leer libros académicos, ya que disfruto aprender y ampliar mis conocimientos. También me gusta viajar y compartir tiempo de calidad con mi familia. Entre mis actividades favoritas está nadar, porque me permite mantenerme activa y disfrutar de momentos de relajación.
+
 * **Brianda Isabel Saenz Llorente** Me gusta compartir tiempo de calidad con mi bebé y mi familia, quienes son una parte muy importante de mi vida. Disfruto leer, aprender cosas nuevas y vivir mi etapa universitaria, ya que me permite crecer tanto académica como personalmente. También soy apasionada por los atardeceres y disfruto apreciar su tranquilidad y belleza.
 
-* **Maximiliano González Lopez** Descripcion 
+* **Maximiliano González Lopez** Me considero una persona muy alegre pero muy poco saciable. Me gusta demasiado el Baloncesto ya que es algo que me permite liberarme y hacerme sentir en paz conmigo mismo. También me gusta ir mucho al Gym que es otra de mis actividades favoritas ya que también me permite despejar la mente.
+
 * **Aura Jhosceline Hurtado Botero** Me considero una persona muy cercana, alegre y amigable, lo que me permite conectar fácilmente con los demás, trabajar en equipo de forma armónica y crear un ambiente positivo a mi alrededor.
 Me encanta el deporte en especial el voleibol. Esto no solo es un espacio de bienestar para mí, sino que refleja mi disciplina, constancia, energía y capacidad de superación.
 
@@ -25,7 +28,7 @@ Me encanta el deporte en especial el voleibol. Esto no solo es un espacio de bie
 
 * **Maximiliano González Lopez**
   * **Programa:** Ingeniería Industrial
-  * **Habilidades y Fortalezas:** 
+  * **Habilidades y Fortalezas:** Tengo mucha responsabilidad y la habilidad de aprender muy rápido, mas cuando se trata de algo en especifico que me llame muco la atención, soy bastante aplicado y estoy dispuesto a aprender cosas nuevas cada día.
 
 * **Aura Jhosceline Hurtado Botero**
   * **Programa:** Ingeniería Industrial
