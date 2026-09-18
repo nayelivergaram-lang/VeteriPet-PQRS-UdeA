@@ -80,7 +80,7 @@ El sistema permite capturar los datos del usuario solicitante, la información d
 6. **Información Relacionada:** El sistema debe registrar obligatoriamente el tipo de mascota (exclusivamente Perro o Gato) y el campus universitario de la UdeA asociado.
 7. **Gestión Automática de Tiempos:** El sistema debe calcular la fecha máxima de respuesta sumando automáticamente 30 días calendario a la fecha de radicación utilizando la librería `datetime`.
 8. **Flujo de Estados:** El sistema debe asignar la solicitud con estado inicial "Registrada" y controlar los cambios de estado siguiendo estrictamente la secuencia: Registrada $\rightarrow$ En proceso $\rightarrow$ Solucionada.
-9. **Persistencia en Archivos Independientes:** El sistema debe almacenar de forma permanente los registros en 4 archivos de texto independientes según su tipo (`Peticion.txt`, `Queja.txt`, `Reclamo.txt`, `Sugerencia.txt`).
+9. **Persistencia en Archivos Independientes:** El sistema debe almacenar de forma permanente los registros en 4 archivos de texto independientes según su tipo (Peticion.txt, `Queja.txt`, `Reclamo.txt`, `Sugerencia.txt`).
 10. **Consulta de Registros:** El sistema debe permitir consultar las PQRS activas y filtrar la información registrada para su seguimiento.
 11. **Impresión de Radicado ASCII:** El sistema debe imprimir o generar un comprobante/radicado en formato de texto ASCII delimitado con marco (`+`, `-`, `|`), centrado y con un ancho horizontal fijo de exactamente 120 caracteres.
 12. **Módulo de Estadísticas:** El sistema debe calcular y presentar 5 estadísticas clave de gestión, incluyendo de forma obligatoria el promedio en días enteros de tiempo de respuesta a las PQRS.
@@ -116,13 +116,13 @@ Para desarrollar el sistema de gestión de PQRS de **VeteriPet UdeA** se planifi
 
 El proyecto se distribuye a lo largo de las 16 semanas del semestre académico:
 
-| Actividad / Hito | Sem 1-2 | Sem 3-4 | Sem 5-6 | Sem 7-8 | Sem 9-10 | Sem 11-12 | Sem 13-14 | Sem 15-16 |
+| Actividad | Semana 1-2 | Semana 3-4 | Semana 5-6 | Semana 7-8 | Semana 9-10 | Semana 11-12 | Semana 13-14 | Semana 15-16 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1. Análisis de requerimientos y Actas | **X** | | | | | | | |
 | 2. Identidad (**VeteriPet UdeA**), Logo y Licencia | | **X** | | | | | | |
 | 3. Diseño de validaciones y estructuración de datos | | | **X** | | | | | |
 | 4. Plan de Proyecto y Presupuesto (**Entrega 1 - Sem 8**) | | | | **X** | | | | |
-| 5. Desarrollo de POO (c_) y registro de PQRS | | | | | **X** | | | |
+| 5. Desarrollo de POO (c_) y registro de PQRS | | | | | **** | | | |
 | 6. Módulo de archivos planos (archivos.py) y consultas | | | | | | **X** | | |
 | 7. Comprobante ASCII (120 char) y estadísticas (reportes.py) | | | | | | | **X** | |
 | 8. Pruebas, Manual de Usuario y Sustentación (**Entrega 2 - Sem 16**) | | | | | | | | **X** |
