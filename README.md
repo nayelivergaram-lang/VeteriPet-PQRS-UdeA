@@ -107,3 +107,41 @@ El programa será desarrollado en Python y utilizará archivos de texto para alm
 9. El código debe contener comentarios que permitan comprender sus diferentes elementos.
 
 10. El programa debe ser ejecutable y permitir realizar las funciones establecidas para la gestión de PQRS.
+
+## 7. PLAN DE PROYECTO
+
+# 7.1 Actividades del proyecto
+
+Para desarrollar el sistema de gestión de PQRS se realizarán las siguientes actividades:
+
+1. Analizar el problema y comprender los requerimientos del proyecto.
+2. Definir los datos que se deben registrar para cada PQRS.
+3. Diseñar la estructura del programa y de los archivos de texto.
+4. Diseñar las validaciones de los datos.
+5. Desarrollar el registro de las PQRS.
+6. Desarrollar la consulta y actualización de las PQRS.
+7. Desarrollar los reportes y estadísticas.
+8. Realizar pruebas del programa y corregir errores.
+9. Elaborar la documentación y el manual de usuario.
+10. Organizar el proyecto y realizar la entrega en GitHub.
+
+# 7.2 Cronograma
+
+| Actividad                         | Semana 1 | Semana 2 | Semana 3 | Semana 4 | Semana 5 |
+| --------------------------------- | :------: | :------: | :------: | :------: | :------: |
+| Análisis de requerimientos        |     X    |          |          |          |          |
+| Diseño del programa               |     X    |     X    |          |          |          |
+| Diseño de validaciones y archivos |          |     X    |          |          |          |
+| Desarrollo del registro de PQRS   |          |     X    |     X    |          |          |
+| Consulta y actualización          |          |          |     X    |          |          |
+| Reportes y estadísticas           |          |          |     X    |     X    |          |
+| Pruebas y corrección de errores   |          |          |          |     X    |          |
+| Documentación y manual            |          |          |          |     X    |     X    |
+| Organización y entrega en GitHub  |          |          |          |          |     X    |
+
+# 7.3 Presupuesto
+
+Para efectos de la práctica académica, se estima una dedicación total de 50 horas de trabajo para el desarrollo del proyecto. El valor del trabajo se calculará tomando como referencia 1 salario mínimo legal vigente (SMLV), de acuerdo con lo establecido en la guía del proyecto.
+
+El presupuesto corresponde principalmente al tiempo dedicado por los integrantes del equipo para realizar las actividades de análisis, diseño, programación, pruebas, documentación y entrega del proyecto.
+
