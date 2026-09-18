@@ -28,7 +28,7 @@ Me encanta el deporte en especial el voleibol. Esto no solo es un espacio de bie
 
 * **Maximiliano González Lopez**
   * **Programa:** Ingeniería Industrial
-  * **Habilidades y Fortalezas:** Tengo mucha responsabilidad y la habilidad de aprender muy rápido, mas cuando se trata de algo en especifico que me llame muco la atención, soy bastante aplicado y estoy dispuesto a aprender cosas nuevas cada día.
+  * **Habilidades y Fortalezas:** Tengo mucha responsabilidad y la habilidad de aprender muy rápido, mas cuando se trata de algo en especifico que me llame mucho la atención, soy bastante aplicado y estoy dispuesto a aprender cosas nuevas cada día.
 
 * **Aura Jhosceline Hurtado Botero**
   * **Programa:** Ingeniería Industrial
