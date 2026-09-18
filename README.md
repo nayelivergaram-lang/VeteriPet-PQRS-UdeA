@@ -42,7 +42,6 @@ Me encanta el deporte en especial el voleibol. Esto no solo es un espacio de bie
 <p align="center">
  <img width="600" alt="Un_logo_vectorial_plano_minimalista_e_icnico_para_una_aplica" src="https://github.com/user-attachments/assets/ee4cd92e-e0fb-4cb3-abaf-ef5a4db27261" />
 </p>
-<img width="1248" height="832" alt="Un_logo_vectorial_plano_minimalista_e_icnico_para_una_aplica" src="https://github.com/user-attachments/assets/ee4cd92e-e0fb-4cb3-abaf-ef5a4db27261" />
 
 ## 4. Licencia del Software
 
