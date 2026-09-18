@@ -52,3 +52,57 @@ Desarrollar un programa sencillo y fácil de utilizar que permita a VeteriPet Ud
 El sistema permitirá registrar los datos del usuario, la información de la PQRS, su estado y la fecha máxima de respuesta. También permitirá consultar información sobre las PQRS para facilitar su seguimiento y gestión.
 
 El programa será desarrollado en Python y utilizará archivos de texto para almacenar la información. Se busca crear una herramienta organizada, clara y funcional que facilite el manejo de las PQRS.
+
+## 6. ESPECIFICACIÓN DE REQUISITOS
+
+# 6.1 Requisitos funcionales
+
+1. El sistema debe permitir registrar una nueva PQRS.
+
+2. El sistema debe asignar automáticamente un número de radicado consecutivo y único a cada PQRS.
+
+3. El sistema debe permitir seleccionar el tipo de PQRS: Petición, Queja, Reclamo o Sugerencia.
+
+4. El sistema debe solicitar y almacenar los datos del solicitante, como nombre completo, tipo y número de documento, teléfono, correo electrónico y dirección.
+
+5. El sistema debe permitir registrar la fecha de radicación, el canal de recepción, el asunto y la descripción detallada de la PQRS.
+
+6. El sistema debe permitir registrar el tipo de mascota y el campus relacionado con la PQRS.
+
+7. El sistema debe calcular automáticamente la fecha máxima de respuesta, teniendo en cuenta un plazo máximo de 30 días calendario.
+
+8. El sistema debe asignar inicialmente el estado de la PQRS como "Registrada".
+
+9. El sistema debe permitir actualizar el estado de la PQRS siguiendo el orden: Registrada, En proceso y Solucionada.
+
+10. El sistema debe almacenar las PQRS en archivos de texto independientes según su tipo.
+
+11. El sistema debe permitir consultar información relacionada con las PQRS registradas.
+
+12. El sistema debe generar un reporte con estadísticas sobre las PQRS, incluyendo el promedio de días de respuesta.
+
+13. El sistema debe validar los datos ingresados por el usuario antes de almacenarlos.
+
+14. El sistema debe permitir imprimir o generar el registro de la PQRS en formato de texto.
+
+# 6.2 Requisitos no funcionales
+
+1. El sistema debe ser desarrollado en Python.
+
+2. El programa debe funcionar mediante una interfaz de consola sencilla y fácil de utilizar.
+
+3. La información debe almacenarse en archivos de texto.
+
+4. El sistema debe estar organizado mediante módulos para facilitar su mantenimiento.
+
+5. El programa debe utilizar clases y objetos para organizar la información.
+
+6. El sistema debe validar los datos para evitar registros incorrectos.
+
+7. La información de cada PQRS debe mantenerse organizada y separada según su tipo.
+
+8. El programa debe presentar la información de manera clara y ordenada para facilitar su lectura.
+
+9. El código debe contener comentarios que permitan comprender sus diferentes elementos.
+
+10. El programa debe ser ejecutable y permitir realizar las funciones establecidas para la gestión de PQRS.
