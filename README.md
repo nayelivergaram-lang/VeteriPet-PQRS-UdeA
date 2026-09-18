@@ -123,12 +123,12 @@ El proyecto se distribuye a lo largo de las 16 semanas del semestre académico:
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1. Análisis de requerimientos y Actas | **x** | | | | | | | |
 | 2. Identidad (**VeteriPet UdeA**), Logo y Licencia | | [**X**] | | | | | | |
-| 3. Diseño de validaciones y estructuración de datos | | | **X** | | | | | |
-| 4. Plan de Proyecto y Presupuesto (**Entrega 1 - Sem 8**) | | | | **X** | | | | |
+| 3. Diseño de validaciones y estructuración de datos | | | X | | | | | |
+| 4. Plan de Proyecto y Presupuesto (**Entrega 1 - Semana 8**) | | | | `X` | | | | |
 | 5. Desarrollo de POO (c_) y registro de PQRS | | | | | **** | | | |
 | 6. Módulo de archivos planos (archivos.py) y consultas | | | | | | **X** | | |
 | 7. Comprobante ASCII (120 char) y estadísticas (reportes.py) | | | | | | | **X** | |
-| 8. Pruebas, Manual de Usuario y Sustentación (**Entrega 2 - Sem 16**) | | | | | | | | **X** |
+| 8. Pruebas, Manual de Usuario y Sustentación (**Entrega 2 - Semana 16**) | | | | | | | | **X** |
 
 ### 7.3 Presupuesto del Proyecto
 
