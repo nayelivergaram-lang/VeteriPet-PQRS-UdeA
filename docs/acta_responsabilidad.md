@@ -1,8 +1,10 @@
 # Acta de Responsabilidad
 
-**Proyecto:** Gestor de PQRS - MEPEGA
+**Proyecto:** Gestor de PQRS - VeteriPet
+
 **Curso:** Algoritmia y Programación 2026-2
-**Fecha:** _(Completar, AAAA-MM-DD)_
+
+**Fecha:** _(20/08/2026)_
 
 ## 1. Objetivo
 
@@ -13,11 +15,16 @@ de evaluación, en cumplimiento del procedimiento de actas exigido por el curso.
 
 | Integrante | Rol / módulo asignado | Tareas específicas | Plazo |
 |---|---|---|---|
-| _(Completar - Líder)_ | Gestión del repositorio de GitHub | Crear el repositorio con cuenta institucional UdeA, organizar carpetas `src`, `docs`, `images`, `data`, gestionar accesos del equipo. | _(Completar)_ |
-| _(Completar)_ | `validaciones.py` | Implementar y probar las funciones de validación de datos del solicitante y de la PQRS. | _(Completar)_ |
-| _(Completar)_ | `archivos.py` | Implementar la lectura, escritura y actualización de los 4 archivos planos. | _(Completar)_ |
-| _(Completar)_ | `reportes.py` y estadísticas | Implementar el comprobante ASCII y las 5 estadísticas del sistema. | _(Completar)_ |
-| _(Completar)_ | `main.py`, documentación y pruebas | Integrar los módulos en el menú principal, redactar el manual de usuario y coordinar las pruebas finales. | _(Completar)_ |
+| _Nayeli Vargas Mazo - Líder)_ | Gestión del repositorio de GitHub | Crear el repositorio con cuenta institucional UdeA, organizar carpetas `src`, `docs`, `images`, `data`, gestionar accesos del equipo. | _23/08/2026_ |
+| _Todos los integrantes_ | Entregables punto N°1 y 2| Escribir Nombre completo y una breve descripción, registrar vínculos académicos (programa al cual pertenece, una descripción con habilidades y fortalezas de cada uno)| _27/08/2026_ |
+| _Todos los integrantes_ | Entregables punto N°3 | Nombre del proyecto y detalles(Seleccionar un nombre y un logo para el proyecto). | _3/09/2026_ |
+| _Maximiliano González López_ | Entregables punto N°4 | Licencia del software (Consultar y socializar con el equipo para juntos definir la licencia con la cual registra el software)| _10/09/2026_ |
+| _Luz Yadira Ramirez Rojas Y Brianda Isabel Saenz Llorente_ | Entregables punto N°5 y 6 | Proporciona una descripción general del software, sus objetivos y beneficios, adicionalmente describe los requisitos funcionales y no funcionales del software | _10/09/2026_ |
+| _Aura Jhosceline Hurtado y Nayeli Vergara Mazo_ | Entregables punto N°7 | Describir las actividades, el cronograma (Diagrama de Gantt) y el presupuesto del proyecto | _10/09/2026_ |
+| _Todos los integrantes_ | Revisión y ajustes finales | Revisar cada uno de los puntos y hacer los ajustes finales para primera entrega del proyecto | _17 y 18/09/2026_ |
+| _Luz Yadira Ramirez y Nayeli Vargas Mazo_ | Actas | Elaboraran las primera tres actas 8Colaboración, Entendimiento y Responsabilidad| _10/09/2026_ |
+
+
 
 > Nota: todos los integrantes son responsables de conocer y poder explicar el funcionamiento
 > completo del programa, ya que la sustentación (semana 16) exige que **cualquier** integrante pueda
@@ -43,8 +50,8 @@ Cada integrante, al firmar, acepta la responsabilidad asignada en la tabla anter
 
 | Nombre completo | Firma |
 |---|---|
-| _(Completar)_ | _____________________ |
-| _(Completar)_ | _____________________ |
-| _(Completar)_ | _____________________ |
-| _(Completar)_ | _____________________ |
-| _(Completar)_ | _____________________ |
+| _Nayeli Vergara Mazo – Líder_ |            |
+| _Luz Yadira Ramírez Rojas_ |               |
+| _Maximiliano González Lopez_ |             |
+| _Aura Jhosceline Hurtado Botero_ |         |
+| _Brianda Isabel Saenz Llorente_ |          |
