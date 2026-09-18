@@ -78,14 +78,14 @@ El sistema permite capturar los datos del usuario solicitante, la información d
 1. **Registro de PQRS:** El sistema debe permitir registrar una nueva solicitud capturando los datos del solicitante, la información del caso, la mascota y el campus.
 2. **Radicado Automático:** El sistema debe asignar automáticamente un ID de registro (número entero auto-incremental comenzando en 1) por cada tipo de archivo de manera independiente.
 3. **Clasificación de Solicitud:** El sistema debe permitir seleccionar la categoría exacta de la solicitud: Petición, Queja, Reclamo o Sugerencia.
-4. **Validación Rigurosa del Solicitante:** El sistema debe validar que el nombre no contenga números ni caracteres especiales no autorizados; el tipo de documento sea válido (CC, TI, CE, PP, NIT); el número de documento tenga entre 3 y 15 dígitos; el teléfono tenga exactamente 10 dígitos; y el correo cumpla la estructura con un único símbolo `@` y dominio válido.
+4. **Validación Rigurosa del Solicitante:** El sistema debe validar que el nombre no contenga números ni caracteres especiales no autorizados; el tipo de documento sea válido (CC, TI, CE, PP, NIT); el número de documento tenga entre 3 y 15 dígitos; el teléfono tenga exactamente 10 dígitos; y el correo cumpla la estructura con un único símbolo @ y dominio válido.
 5. **Detalles y Canales:** El sistema debe permitir registrar la fecha de radicación, el canal de recepción (Presencial, Correo, Web, Teléfono, Redes, Otro), el asunto/título y la descripción detallada del caso.
 6. **Información Relacionada:** El sistema debe registrar obligatoriamente el tipo de mascota (exclusivamente Perro o Gato) y el campus universitario de la UdeA asociado.
-7. **Gestión Automática de Tiempos:** El sistema debe calcular la fecha máxima de respuesta sumando automáticamente 30 días calendario a la fecha de radicación utilizando la librería `datetime`.
-8. **Flujo de Estados:** El sistema debe asignar la solicitud con estado inicial "Registrada" y controlar los cambios de estado siguiendo estrictamente la secuencia: Registrada $\rightarrow$ En proceso $\rightarrow$ Solucionada.
-9. **Persistencia en Archivos Independientes:** El sistema debe almacenar de forma permanente los registros en 4 archivos de texto independientes según su tipo (Peticion.txt, `Queja.txt`, `Reclamo.txt`, `Sugerencia.txt`).
+7. **Gestión Automática de Tiempos:** El sistema debe calcular la fecha máxima de respuesta sumando automáticamente 30 días calendario a la fecha de radicación utilizando la librería datetime.
+8. **Flujo de Estados:** El sistema debe asignar la solicitud con estado inicial "Registrada" y controlar los cambios de estado siguiendo estrictamente la secuencia: Registrada -> En proceso -> Solucionada.
+9. **Persistencia en Archivos Independientes:** El sistema debe almacenar de forma permanente los registros en 4 archivos de texto independientes según su tipo (Peticion.txt, Queja.txt, Reclamo.txt, Sugerencia.txt).
 10. **Consulta de Registros:** El sistema debe permitir consultar las PQRS activas y filtrar la información registrada para su seguimiento.
-11. **Impresión de Radicado ASCII:** El sistema debe imprimir o generar un comprobante/radicado en formato de texto ASCII delimitado con marco (`+`, `-`, `|`), centrado y con un ancho horizontal fijo de exactamente 120 caracteres.
+11. **Impresión de Radicado ASCII:** El sistema debe imprimir o generar un comprobante/radicado en formato de texto ASCII delimitado con marco (+, -, |), centrado y con un ancho horizontal fijo de exactamente 120 caracteres.
 12. **Módulo de Estadísticas:** El sistema debe calcular y presentar 5 estadísticas clave de gestión, incluyendo de forma obligatoria el promedio en días enteros de tiempo de respuesta a las PQRS.
 
 ### 6.2 Requisitos No Funcionales
@@ -121,11 +121,11 @@ El proyecto se distribuye a lo largo de las 16 semanas del semestre académico:
 
 | Actividad | Semana 1-2 | Semana 3-4 | Semana 5-6 | Semana 7-8 | Semana 9-10 | Semana 11-12 | Semana 13-14 | Semana 15-16 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1. Análisis de requerimientos y Actas | **x** | | | | | | | |
-| 2. Identidad (**VeteriPet UdeA**), Logo y Licencia | | [**X**] | | | | | | |
-| 3. Diseño de validaciones y estructuración de datos | | | X | | | | | |
-| 4. Plan de Proyecto y Presupuesto (**Entrega 1 - Semana 8**) | | | | `X` | | | | |
-| 5. Desarrollo de POO (c_) y registro de PQRS | | | | | **** | | | |
+| 1. Análisis de requerimientos y Actas | **X** | | | | | | | |
+| 2. Identidad (**VeteriPet UdeA**), Logo y Licencia | | **X** | | | | | | |
+| 3. Diseño de validaciones y estructuración de datos | | | **X**| | | | | |
+| 4. Plan de Proyecto y Presupuesto (**Entrega 1 - Semana 8**) | | | | **X** | | | | |
+| 5. Desarrollo de POO (c_) y registro de PQRS | | | | | **X** | | | |
 | 6. Módulo de archivos planos (archivos.py) y consultas | | | | | | **X** | | |
 | 7. Comprobante ASCII (120 char) y estadísticas (reportes.py) | | | | | | | **X** | |
 | 8. Pruebas, Manual de Usuario y Sustentación (**Entrega 2 - Semana 16**) | | | | | | | | **X** |
@@ -146,4 +146,4 @@ El presupuesto no se liquida en dinero en efectivo sino en **tiempo de práctica
 | **Desarrollo de Persistencia y Archivos (archivos.py)** | 15 hrs | 75 hrs | $8.338 | $625.350 |
 | **Generación de Radicado ASCII y Estadísticas (reportes.py)** | 10 hrs | 50 hrs | $8.338 | $416.900 |
 | **Manual de Usuario, Pruebas y Sustentación Final** | 5 hrs | 25 hrs | $8.338 | $208.450 |
-| **TOTAL GENERAL DEL PROYECTO** | **50 hrs** | **250 hrs** | **-** | **$2.084.500 COP** |
+| **TOTAL GENERAL DEL PROYECTO** | **50 hrs** | **250 hrs** | **N/A** | **$2.084.500 COP** |
