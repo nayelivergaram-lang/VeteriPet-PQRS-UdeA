@@ -2,7 +2,7 @@
 
 ## 1. Integrantes
 * **Nayeli Vergara Mazo** Apasionada por la fotografía urbana, la lectura y las caminatas al aire libre. Interesada en la apreciación cultural y el aprendizaje constante
-* **Luz Yadira Ramirez Rojas** Estudiante del campus Santa Fe de Antioquía. Soy una persona observadora, orientada al detalle y al resultado, me encantan los documentales y la lectura académica, ya que contribuyen a mi proceso de formación y me ayudan a mantener la mente abierta al cambio.
+* **Luz Yadira Ramirez Rojas** En mi tiempo libre me gusta ver documentales y leer libros académicos, ya que disfruto aprender y ampliar mis conocimientos. También me gusta viajar y compartir tiempo de calidad con mi familia. Entre mis actividades favoritas está nadar, porque me permite mantenerme activa y disfrutar de momentos de relajación.
 * **Brianda Isabel Saenz Llorente** Soy una persona responsable, organizada y perseverante. Me gusta aprender, asumir nuevos retos y buscar soluciones a los problemas. También valoro el trabajo en equipo y el aprendizaje continuo.
 * **Maximiliano González Lopez** Descripcion 
 * **Aura** Descripcion
@@ -15,7 +15,7 @@
 
 * **Luz Yadira Ramirez Rojas**
   * **Programa:** Ingeniería Industrial
-  * **Habilidades y Fortalezas:** 
+  * **Habilidades y Fortalezas:** Tengo una actitud orientada al aprendizaje, al mejoramiento continuo y al cumplimiento de mis objetivos académicos y profesionales.
 
 * **Brianda Isabel Saenz Llorente**
   * **Programa:** Ingeniería Industrial
