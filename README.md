@@ -5,7 +5,8 @@
 * **Luz Yadira Ramirez Rojas** En mi tiempo libre me gusta ver documentales y leer libros académicos, ya que disfruto aprender y ampliar mis conocimientos. También me gusta viajar y compartir tiempo de calidad con mi familia. Entre mis actividades favoritas está nadar, porque me permite mantenerme activa y disfrutar de momentos de relajación.
 * **Brianda Isabel Saenz Llorente** Soy una persona responsable, organizada y perseverante. Me gusta aprender, asumir nuevos retos y buscar soluciones a los problemas. También valoro el trabajo en equipo y el aprendizaje continuo.
 * **Maximiliano González Lopez** Descripcion 
-* **Aura** Descripcion
+* **Aura** Me considero una persona muy cercana, alegre y amigable, lo que me permite conectar fácilmente con los demás, trabajar en equipo de forma armónica y crear un ambiente positivo a mi alrededor.
+Me encanta el deporte en especial el voleibol. Esto no solo es un espacio de bienestar para mí, sino que refleja mi disciplina, constancia, energía y capacidad de superación.
 
 ## 2. Vínculos Académicos y Descripción
 
