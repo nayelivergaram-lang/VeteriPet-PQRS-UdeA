@@ -118,7 +118,7 @@ El proyecto se distribuye a lo largo de las 16 semanas del semestre académico:
 
 | Actividad | Semana 1-2 | Semana 3-4 | Semana 5-6 | Semana 7-8 | Semana 9-10 | Semana 11-12 | Semana 13-14 | Semana 15-16 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1. Análisis de requerimientos y Actas | **X** | | | | | | | |
+| 1. Análisis de requerimientos y Actas | **x** | | | | | | | |
 | 2. Identidad (**VeteriPet UdeA**), Logo y Licencia | | **X** | | | | | | |
 | 3. Diseño de validaciones y estructuración de datos | | | **X** | | | | | |
 | 4. Plan de Proyecto y Presupuesto (**Entrega 1 - Sem 8**) | | | | **X** | | | | |
