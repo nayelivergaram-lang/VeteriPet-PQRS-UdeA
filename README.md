@@ -40,104 +40,107 @@ Me encanta el deporte en especial el voleibol. Esto no solo es un espacio de bie
 
 ## 4. Licencia del Software
 
-Este proyecto está distribuido bajo los términos de la **Licencia MIT**.
+Este proyecto está registrado bajo la licencia **Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)**, definida a través de la herramienta oficial de [Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es).
 
-Permite el uso, copia, modificación, distribución y comercialización del software libremente, con la única condición de mantener el aviso de derechos de autor y la nota de licencia original en todas las copias.
+**Permisos del usuario:**
+* **Compartir:** Copiar y redistribuir el material en cualquier medio o formato.
+* **Adaptar:** Remezclar, transformar y crear a partir del material.
 
-## 5. Reporte de visión
+**Condiciones de uso:**
+* **Atribución:** Se debe otorgar el crédito correspondiente al equipo de desarrollo (estudiantes de la Universidad de Antioquia) y proporcionar un enlace a la licencia.
 
-Visión del proyecto
+## 5. Reporte de Visión
 
-Desarrollar un programa sencillo y fácil de utilizar que permita a VeteriPet UdeA registrar, organizar y consultar las Peticiones, Quejas, Reclamos y Sugerencias (PQRS) recibidas por la empresa.
+### Descripción General del Software
+**VeteriPet UdeA** es un programa sencillo, estructurado y de fácil uso desarrollado en Python con interfaz de consola (CLI), diseñado para gestionar, registrar, organizar y consultar las Peticiones, Quejas, Reclamos y Sugerencias (PQRS) recibidas para la atención veterinaria de mascotas en la comunidad universitaria.
 
-El sistema permitirá registrar los datos del usuario, la información de la PQRS, su estado y la fecha máxima de respuesta. También permitirá consultar información sobre las PQRS para facilitar su seguimiento y gestión.
+El sistema permite capturar los datos del usuario solicitante, la información detallada de la PQRS, su estado y el cálculo automático de la fecha máxima de respuesta. La información se almacena de manera organizada y permanente mediante cuatro archivos de texto plano independientes, garantizando una solución liviana, funcional y sin costos de licenciamiento.
 
-El programa será desarrollado en Python y utilizará archivos de texto para almacenar la información. Se busca crear una herramienta organizada, clara y funcional que facilite el manejo de las PQRS.
+### Objetivos del Proyecto
+* **Objetivo General:** Implementar un sistema informático sencillo y funcional en Python para la gestión, control y seguimiento eficiente de las PQRS en VeteriPet UdeA.
+* **Objetivos Específicos:**
+  * Estructurar el registro estandarizado de datos del solicitante, detalles de la mascota (Perro/Gato) y cálculo automático de fechas límite de respuesta (30 días calendario).
+  * Facilitar la consulta en tiempo real del estado de las solicitudes para el control y seguimiento continuo por parte del equipo.
+  * Garantizar la persistencia de datos almacenando la información de forma independiente en archivos de texto (Peticion.txt, Queja.txt, Reclamo.txt, Sugerencia.txt).
+  * Consolidar métricas para la generación de reportes y estadísticas de gestión.
 
-## 6. ESPECIFICACIÓN DE REQUISITOS
+### Beneficios
+* **Para la Organización (VeteriPet UdeA):** Centralización de la información, eliminación del procesamiento manual a papel y lápiz, control de tiempos de atención y facilidad de mantenimiento del software.
+* **Para los Usuarios:** Proceso de radicación transparente, generación de comprobante impreso en texto ASCII, trazabilidad del caso y respuesta oportuna a sus requerimientos.
+  
+## 6. Especificación de Requisitos
 
-# 6.1 Requisitos funcionales
+### 6.1 Requisitos Funcionales
 
-1. El sistema debe permitir registrar una nueva PQRS.
+1. **Registro de PQRS:** El sistema debe permitir registrar una nueva solicitud capturando los datos del solicitante, la información del caso, la mascota y el campus.
+2. **Radicado Automático:** El sistema debe asignar automáticamente un ID de registro (número entero auto-incremental comenzando en 1) por cada tipo de archivo de manera independiente.
+3. **Clasificación de Solicitud:** El sistema debe permitir seleccionar la categoría exacta de la solicitud: Petición, Queja, Reclamo o Sugerencia.
+4. **Validación Rigurosa del Solicitante:** El sistema debe validar que el nombre no contenga números ni caracteres especiales no autorizados; el tipo de documento sea válido (CC, TI, CE, PP, NIT); el número de documento tenga entre 3 y 15 dígitos; el teléfono tenga exactamente 10 dígitos; y el correo cumpla la estructura con un único símbolo `@` y dominio válido.
+5. **Detalles y Canales:** El sistema debe permitir registrar la fecha de radicación, el canal de recepción (Presencial, Correo, Web, Teléfono, Redes, Otro), el asunto/título y la descripción detallada del caso.
+6. **Información Relacionada:** El sistema debe registrar obligatoriamente el tipo de mascota (exclusivamente Perro o Gato) y el campus universitario de la UdeA asociado.
+7. **Gestión Automática de Tiempos:** El sistema debe calcular la fecha máxima de respuesta sumando automáticamente 30 días calendario a la fecha de radicación utilizando la librería `datetime`.
+8. **Flujo de Estados:** El sistema debe asignar la solicitud con estado inicial "Registrada" y controlar los cambios de estado siguiendo estrictamente la secuencia: Registrada $\rightarrow$ En proceso $\rightarrow$ Solucionada.
+9. **Persistencia en Archivos Independientes:** El sistema debe almacenar de forma permanente los registros en 4 archivos de texto independientes según su tipo (`Peticion.txt`, `Queja.txt`, `Reclamo.txt`, `Sugerencia.txt`).
+10. **Consulta de Registros:** El sistema debe permitir consultar las PQRS activas y filtrar la información registrada para su seguimiento.
+11. **Impresión de Radicado ASCII:** El sistema debe imprimir o generar un comprobante/radicado en formato de texto ASCII delimitado con marco (`+`, `-`, `|`), centrado y con un ancho horizontal fijo de exactamente 120 caracteres.
+12. **Módulo de Estadísticas:** El sistema debe calcular y presentar 5 estadísticas clave de gestión, incluyendo de forma obligatoria el promedio en días enteros de tiempo de respuesta a las PQRS.
 
-2. El sistema debe asignar automáticamente un número de radicado consecutivo y único a cada PQRS.
+### 6.2 Requisitos No Funcionales
 
-3. El sistema debe permitir seleccionar el tipo de PQRS: Petición, Queja, Reclamo o Sugerencia.
+1. **Lenguaje de Desarrollo:** El sistema debe estar desarrollado en el lenguaje de programación Python (versión 3.10 o superior) e integrable en entornos como Google Colab.
+2. **Interfaz CLI Usable:** El programa funcionará mediante un menú interactivo en consola de comandos (CLI) limpio, accesible y fácil de operar para el usuario administrador.
+3. **Arquitectura Modular:** El código debe estructurarse modularmente dividiendo las responsabilidades en archivos específicos: validaciones.py, archivos.py, reportes.py y el script principal.
+4. **Programación Orientada a Objetos:** El programa implementará clases y objetos para modelar la información, utilizando la convención del prefijo `c_` en los nombres de las clases.
+5. **Comprensión de Listas:** Se deben utilizar mecanismos eficientes de Python como la comprensión de listas para la manipulación y filtrado de datos.
+6. **Documentación y Comentarios:** El código debe contener comentarios explicativos enriquecidos con adjetivos descriptivos en cada elemento para asegurar mantenibilidad y claridad.
+7. **Integridad de Datos:** La manipulación de archivos planos debe asegurar la no duplicidad de id y gestionar correctamente los campos opcionales asignando "N/A" cuando corresponda (como en la dirección).
+   
+## 7. Plan de Proyecto
 
-4. El sistema debe solicitar y almacenar los datos del solicitante, como nombre completo, tipo y número de documento, teléfono, correo electrónico y dirección.
+### 7.1 Actividades del Proyecto
 
-5. El sistema debe permitir registrar la fecha de radicación, el canal de recepción, el asunto y la descripción detallada de la PQRS.
-
-6. El sistema debe permitir registrar el tipo de mascota y el campus relacionado con la PQRS.
-
-7. El sistema debe calcular automáticamente la fecha máxima de respuesta, teniendo en cuenta un plazo máximo de 30 días calendario.
-
-8. El sistema debe asignar inicialmente el estado de la PQRS como "Registrada".
-
-9. El sistema debe permitir actualizar el estado de la PQRS siguiendo el orden: Registrada, En proceso y Solucionada.
-
-10. El sistema debe almacenar las PQRS en archivos de texto independientes según su tipo.
-
-11. El sistema debe permitir consultar información relacionada con las PQRS registradas.
-
-12. El sistema debe generar un reporte con estadísticas sobre las PQRS, incluyendo el promedio de días de respuesta.
-
-13. El sistema debe validar los datos ingresados por el usuario antes de almacenarlos.
-
-14. El sistema debe permitir imprimir o generar el registro de la PQRS en formato de texto.
-
-# 6.2 Requisitos no funcionales
-
-1. El sistema debe ser desarrollado en Python.
-
-2. El programa debe funcionar mediante una interfaz de consola sencilla y fácil de utilizar.
-
-3. La información debe almacenarse en archivos de texto.
-
-4. El sistema debe estar organizado mediante módulos para facilitar su mantenimiento.
-
-5. El programa debe utilizar clases y objetos para organizar la información.
-
-6. El sistema debe validar los datos para evitar registros incorrectos.
-
-7. La información de cada PQRS debe mantenerse organizada y separada según su tipo.
-
-8. El programa debe presentar la información de manera clara y ordenada para facilitar su lectura.
-
-9. El código debe contener comentarios que permitan comprender sus diferentes elementos.
-
-10. El programa debe ser ejecutable y permitir realizar las funciones establecidas para la gestión de PQRS.
-
-## 7. PLAN DE PROYECTO
-
-# 7.1 Actividades del proyecto
-
-Para desarrollar el sistema de gestión de PQRS se realizarán las siguientes actividades:
+Para desarrollar el sistema de gestión de PQRS de **VeteriPet UdeA** se planifican las siguientes etapas de trabajo:
 
 1. Analizar el problema y comprender los requerimientos del proyecto.
-2. Definir los datos que se deben registrar para cada PQRS.
-3. Diseñar la estructura del programa y de los archivos de texto.
-4. Diseñar las validaciones de los datos.
-5. Desarrollar el registro de las PQRS.
-6. Desarrollar la consulta y actualización de las PQRS.
-7. Desarrollar los reportes y estadísticas.
-8. Realizar pruebas del programa y corregir errores.
-9. Elaborar la documentación y el manual de usuario.
-10. Organizar el proyecto y realizar la entrega en GitHub.
+2. Definir los datos que se deben registrar para cada PQRS y estructurar la información.
+3. Diseñar la arquitectura del programa con POO (clases 'c_' ) y la persistencia en archivos de texto planos.
+4. Diseñar el módulo de validaciones de datos (validaciones.py).
+5. Desarrollar el módulo de registro de las PQRS en 4 archivos independientes (archivos.py).
+6. Desarrollar la funcionalidad de consulta, actualización de estados y comprobante ASCII de 120 caracteres.
+7. Desarrollar el módulo de reportes y estadísticas de gestión (reportes.py).
+8. Realizar pruebas integrales del programa y corregir errores de ejecución.
+9. Elaborar la documentación final, el plan de versionado y el manual de usuario.
+10. Organizar el repositorio y realizar las entregas continuas en GitHub.
 
-# 7.2 Cronograma
+### 7.2 Cronograma (Diagrama de Gantt)
 
-| Actividad                         | Semana 1 | Semana 2 | Semana 3 | Semana 4 | Semana 5 |
-| --------------------------------- | :------: | :------: | :------: | :------: | :------: |
-| Análisis de requerimientos        |     X    |          |          |          |          |
-| Diseño del programa               |     X    |     X    |          |          |          |
-| Diseño de validaciones y archivos |          |     X    |          |          |          |
-| Desarrollo del registro de PQRS   |          |     X    |     X    |          |          |
-| Consulta y actualización          |          |          |     X    |          |          |
-| Reportes y estadísticas           |          |          |     X    |     X    |          |
-| Pruebas y corrección de errores   |          |          |          |     X    |          |
-| Documentación y manual            |          |          |          |     X    |     X    |
-| Organización y entrega en GitHub  |          |          |          |          |     X    |
+El proyecto se distribuye a lo largo de las 16 semanas del semestre académico:
 
-# 7.3 Presupuesto
+| Actividad / Hito | Sem 1-2 | Sem 3-4 | Sem 5-6 | Sem 7-8 | Sem 9-10 | Sem 11-12 | Sem 13-14 | Sem 15-16 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 1. Análisis de requerimientos y Actas | **X** | | | | | | | |
+| 2. Identidad (**VeteriPet UdeA**), Logo y Licencia | | **X** | | | | | | |
+| 3. Diseño de validaciones y estructuración de datos | | | **X** | | | | | |
+| 4. Plan de Proyecto y Presupuesto (**Entrega 1 - Sem 8**) | | | | **X** | | | | |
+| 5. Desarrollo de POO (c_) y registro de PQRS | | | | | **X** | | | |
+| 6. Módulo de archivos planos (archivos.py) y consultas | | | | | | **X** | | |
+| 7. Comprobante ASCII (120 char) y estadísticas (reportes.py) | | | | | | | **X** | |
+| 8. Pruebas, Manual de Usuario y Sustentación (**Entrega 2 - Sem 16**) | | | | | | | | **X** |
 
+### 7.3 Presupuesto del Proyecto
+
+El presupuesto no se liquida en dinero en efectivo sino en **tiempo de práctica de formación profesional**, valorado a la tarifa de 1 Salario Mínimo Legal Vigente (SMLV 2026).
+
+* **Equipo de trabajo:** 5 estudiantes de Ingeniería Industrial.
+* **Tiempo por estudiante:** 50 horas invertidas en el desarrollo del proyecto.
+* **Total de horas acumuladas:** 250 horas del equipo ($5 \text{ integrantes} \times 50 \text{ horas}$).
+* **Valor hora de práctica (Base 1 SMLV 2026 / 210 hrs mensuales):** $8.338 COP / hora.
+
+| Concepto / Fase del Proyecto | Horas por Integrante | Horas Totales del Equipo | Valor Hora (COP) | Costo Total Estimado (COP) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Análisis, Actas y Planificación (Puntos 1 a 4)** | 10 hrs | 50 hrs | $8.338 | $416.900 |
+| **Diseño POO y Módulo de Validaciones (validaciones.py)** | 10 hrs | 50 hrs | $8.338 | $416.900 |
+| **Desarrollo de Persistencia y Archivos (archivos.py)** | 15 hrs | 75 hrs | $8.338 | $625.350 |
+| **Generación de Radicado ASCII y Estadísticas (reportes.py)** | 10 hrs | 50 hrs | $8.338 | $416.900 |
+| **Manual de Usuario, Pruebas y Sustentación Final** | 5 hrs | 25 hrs | $8.338 | $208.450 |
+| **TOTAL GENERAL DEL PROYECTO** | **50 hrs** | **250 hrs** | **-** | **$2.084.500 COP** |
