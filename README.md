@@ -28,3 +28,8 @@
 * **Aura**
   * **Programa:** Ingeniería Industrial
   * **Habilidades y Fortalezas:**
+
+ ## 3. Nombre del Proyecto, Descripción y Logo
+
+* **Nombre Oficial:** VeteriPet UdeA.
+* **Descripción:** Sistema de información de consola desarrollado en Python para la recepción, seguimiento, gestión y generación de estadísticas de Peticiones, Quejas, Reclamos y Sugerencias (PQRS) de atención veterinaria de caninos y felinos para el Movimiento Estudiantil de Perritos y Gaticos (MEPEGA) de la Universidad de Antioquia.
