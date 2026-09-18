@@ -1,32 +1,35 @@
 # Acta de Entendimiento
 
-**Proyecto:** Gestor de PQRS - MEPEGA
+**Proyecto:** Gestor de PQRS - VeteriPet
+
 **Curso:** Algoritmia y Programación 2026-2
-**Fecha de la reunión:** _(Completar, AAAA-MM-DD)_
-**Lugar / medio:** _(Completar - presencial / videollamada)_
+
+**Fecha de la reunión:** _2026-08-20_
+
+**Lugar / medio:** _(Virtual / Meet)_
 
 ## 1. Objetivo del acta
 
 Establecer los objetivos comunes del grupo y las expectativas de cada integrante respecto al
-proyecto "Gestor de PQRS - MEPEGA", en cumplimiento del procedimiento de actas de entendimiento y
+proyecto "Gestor de PQRS - VeteriPet", en cumplimiento del procedimiento de actas de entendimiento y
 compromiso exigido por el curso.
 
 ## 2. Asistentes
 
 | Nombre completo | Firma |
 |---|---|
-| _(Completar)_ | _____________________ |
-| _(Completar)_ | _____________________ |
-| _(Completar)_ | _____________________ |
-| _(Completar)_ | _____________________ |
-| _(Completar)_ | _____________________ |
+| _Nayeli Vergara Mazo_ |                 |
+| _Luz Yadira Ramirez Rojas_ |                   |
+| _Brianda Isabel Saenz Llorente_ |                |
+| _Maximiliano González Lopez_ |                |
+| _Aura Jhosceline Hurtado Botero_ |                   |
 
 ## 3. Objetivos comunes del grupo
 
 1. Entregar un software de consola funcional que cumpla con todos los requisitos descritos en el
    documento "Proyecto Integrador Algoritmia y Programación 2026-2".
 2. Aprobar el curso mediante un trabajo en equipo organizado, cumpliendo los plazos de Entrega 1
-   (semana 8) y Entrega 2 (semana de exámenes).
+   (semana 8) y Entrega 2 (semana 16).
 3. Aprender y aplicar correctamente los conceptos de algoritmia, validaciones de datos, manejo de
    archivos y modularización en Python.
 
@@ -34,11 +37,11 @@ compromiso exigido por el curso.
 
 _(Cada integrante debe escribir, en una o dos líneas, qué espera aportar y qué espera del equipo)._
 
-- **Integrante 1:** _(Completar)_
-- **Integrante 2:** _(Completar)_
-- **Integrante 3:** _(Completar)_
-- **Integrante 4:** _(Completar)_
-- **Integrante 5:** _(Completar)_
+- **Nayeli Vergara Mazo:** _Espero aportar compromiso, responsabilidad y disposición para trabajar en las diferentes actividades del proyecto. Del equipo espero comunicación, colaboración y apoyo mutuo para alcanzar los objetivos propuestos._
+- **Luz Yadira Ramirez Rojas:** _Espero aportar mis conocimientos, experiencia y capacidad de organización para contribuir al desarrollo del proyecto. Del equipo espero compromiso, respeto, comunicación efectiva y disposición para aprender y trabajar conjuntamente._
+- **Brianda Isabel Saenz Llorente:** _Espero aportar creatividad, responsabilidad y participación activa en las actividades asignadas. Del equipo espero cooperación, buena comunicación y compromiso para cumplir oportunamente con los objetivos del proyecto._
+- **Maximiliano González Lopez:** _Espero aportar mis conocimientos, habilidades y disposición para aprender y contribuir al desarrollo del software. Del equipo espero responsabilidad, comunicación constante y trabajo colaborativo para resolver las dificultades que se presenten._
+- **Aura Jhosceline Hurtado Botero:** _Espero aportar compromiso, organización y participación activa en las diferentes etapas del proyecto. Del equipo espero respeto, colaboración, comunicación y disposición para compartir conocimientos y alcanzar juntos los resultados esperados._
 
 ## 5. Compromisos generales
 
