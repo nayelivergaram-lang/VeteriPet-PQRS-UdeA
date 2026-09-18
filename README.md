@@ -141,7 +141,7 @@ El presupuesto no se liquida en dinero en efectivo sino en **tiempo de práctica
 * **Total de horas acumuladas:** 250 horas del equipo ($5 \text{ integrantes} \times 50 \text{ horas}$).
 * **Valor hora de práctica (Base 1 SMLV 2026 / 210 hrs mensuales):** $8.338 COP / hora.
 
-| Concepto / Fase del Proyecto | Horas por Integrante | Horas Totales del Equipo | Valor Hora (COP) | Costo Total Estimado (COP) |
+| Fase del Proyecto | Horas por Integrante | Horas Totales del Equipo | Valor Hora (COP) | Costo Total Estimado (COP) |
 | :--- | :---: | :---: | :---: | :---: |
 | **Análisis, Actas y Planificación (Puntos 1 a 4)** | 10 hrs | 50 hrs | $8.338 | $416.900 |
 | **Diseño POO y Módulo de Validaciones (validaciones.py)** | 10 hrs | 50 hrs | $8.338 | $416.900 |
