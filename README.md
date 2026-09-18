@@ -33,5 +33,11 @@
 
 * **Nombre Oficial:** VeteriPet UdeA.
 * **Descripción:** Sistema de información de consola desarrollado en Python para la recepción, seguimiento, gestión y generación de estadísticas de Peticiones, Quejas, Reclamos y Sugerencias (PQRS) de atención veterinaria de caninos y felinos para la la veterinaria VeteriPet de la Universidad de Antioquia.
-* <img width="1248" height="832" alt="Un_logo_vectorial_plano_minimalista_e_icnico_para_una_aplica" src="https://github.com/user-attachments/assets/ee4cd92e-e0fb-4cb3-abaf-ef5a4db27261" />
 
+<img width="1248" height="832" alt="Un_logo_vectorial_plano_minimalista_e_icnico_para_una_aplica" src="https://github.com/user-attachments/assets/ee4cd92e-e0fb-4cb3-abaf-ef5a4db27261" />
+
+## 4. Licencia del Software
+
+Este proyecto está distribuido bajo los términos de la **Licencia MIT**.
+
+Permite el uso, copia, modificación, distribución y comercialización del software libremente, con la única condición de mantener el aviso de derechos de autor y la nota de licencia original en todas las copias
