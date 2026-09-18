@@ -3,7 +3,7 @@
 ## 1. Integrantes
 * **Nayeli Vergara Mazo** Apasionada por la fotografía urbana, la lectura y las caminatas al aire libre. Interesada en la apreciación cultural y el aprendizaje constante
 * **Luz Yadira Ramirez Rojas** Estudiante del campus Santa Fe de Antioquía. Soy una persona observadora, orientada al detalle y al resultado, me encantan los documentales y la lectura académica, ya que contribuyen a mi proceso de formación y me ayudan a mantener la mente abierta al cambio.
-* **Brianda Isabel Saenz Llorente** Descripcion 
+* **Brianda Isabel Saenz Llorente** h
 * **Maximiliano González Lopez** Descripcion 
 * **Aura** Descripcion
 
