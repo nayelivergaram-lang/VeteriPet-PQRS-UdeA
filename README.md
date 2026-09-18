@@ -40,4 +40,4 @@
 
 Este proyecto está distribuido bajo los términos de la **Licencia MIT**.
 
-Permite el uso, copia, modificación, distribución y comercialización del software libremente, con la única condición de mantener el aviso de derechos de autor y la nota de licencia original en todas las copias
+Permite el uso, copia, modificación, distribución y comercialización del software libremente, con la única condición de mantener el aviso de derechos de autor y la nota de licencia original en todas las copias.
