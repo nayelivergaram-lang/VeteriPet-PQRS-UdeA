@@ -28,7 +28,7 @@ Me encanta el deporte en especial el voleibol. Esto no solo es un espacio de bie
 
 * **Aura**
   * **Programa:** Ingeniería Industrial
-  * **Habilidades y Fortalezas:**
+  * **Habilidades y Fortalezas:** Tengo una gran facilidad para aprender rápido, asimilar nuevos conocimientos con agilidad y adaptarme con éxito a entornos dinámicos y a nuevos retos. También poseo una mentalidad analítica orientada a encontrar soluciones eficientes, identificar oportunidades de mejora y ver el lado práctico de las situaciones.
 
  ## 3. Nombre del Proyecto, Descripción y Logo
 
