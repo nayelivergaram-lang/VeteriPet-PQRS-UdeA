@@ -44,3 +44,11 @@ Este proyecto está distribuido bajo los términos de la **Licencia MIT**.
 Permite el uso, copia, modificación, distribución y comercialización del software libremente, con la única condición de mantener el aviso de derechos de autor y la nota de licencia original en todas las copias.
 
 ## 5. Reporte de visión
+
+Visión del proyecto
+
+Desarrollar un programa sencillo y fácil de utilizar que permita a VeteriPet UdeA registrar, organizar y consultar las Peticiones, Quejas, Reclamos y Sugerencias (PQRS) recibidas por la empresa.
+
+El sistema permitirá registrar los datos del usuario, la información de la PQRS, su estado y la fecha máxima de respuesta. También permitirá consultar información sobre las PQRS para facilitar su seguimiento y gestión.
+
+El programa será desarrollado en Python y utilizará archivos de texto para almacenar la información. Se busca crear una herramienta organizada, clara y funcional que facilite el manejo de las PQRS.
