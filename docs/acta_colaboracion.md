@@ -67,4 +67,4 @@ _reasignación de tareas, reporte al docente._
 | _Luz Yadira Ramirez Rojasr_ |<img src="../imagenes/Yadira.png" width="200"> |
 | _Brianda Isabel Saenz Llorente_ |  |
 | _Maximiliano González Lopez_ | |
-| _Aura Jhosceline Hurtado Botero_ |  |
+| _Aura Jhosceline Hurtado Botero_ | <img src="../imagenes/Aura Hurtado.png" width="200"> |
