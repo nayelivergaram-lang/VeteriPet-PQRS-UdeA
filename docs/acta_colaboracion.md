@@ -66,5 +66,5 @@ _reasignación de tareas, reporte al docente._
 | _Nayeli Vergara Mazo_ | |
 | _Luz Yadira Ramirez Rojasr_ |<img src="../imagenes/Yadira.png" width="200"> |
 | _Brianda Isabel Saenz Llorente_ | <img src="../imagenes/Brianda.png" width="200"> |
-| _Maximiliano González Lopez_ | |
+| _Maximiliano González Lopez_ | <img src="../imagenes/Maximiliano.png" width="200">|
 | _Aura Jhosceline Hurtado Botero_ | <img src="../imagenes/Aura Hurtado.png" width="200"> |
