@@ -65,7 +65,7 @@ _reasignación de tareas, reporte al docente._
 |---|---|
 | _Nayeli Vergara Mazo_ | |
 | _Luz Yadira Ramirez Rojasr_ | <p align="center">
- <img width="600" alt="firma" src="https://github.com/user-attachments/assets/ee4cd92e-e0fb-4cb3-abaf-ef5a4db27261" />
+ <img width="600" alt="firma" src="imagenes/Yadira.png" />
 </p>|
 | _Brianda Isabel Saenz Llorente_ |  |
 | _Maximiliano González Lopez_ | |
