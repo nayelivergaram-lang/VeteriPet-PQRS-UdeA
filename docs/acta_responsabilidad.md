@@ -50,8 +50,8 @@ Cada integrante, al firmar, acepta la responsabilidad asignada en la tabla anter
 
 | Nombre completo | Firma |
 |---|---|
-| _Nayeli Vergara Mazo – Líder_ |            |
-| _Luz Yadira Ramírez Rojas_ |               |
-| _Maximiliano González Lopez_ |             |
-| _Aura Jhosceline Hurtado Botero_ |         |
-| _Brianda Isabel Saenz Llorente_ |          |
+| _Nayeli Vergara Mazo_ | |
+| _Luz Yadira Ramirez Rojasr_ |<img src="../imagenes/Yadira.png" width="200"> |
+| _Brianda Isabel Saenz Llorente_ | <img src="../imagenes/Brianda.png" width="200"> |
+| _Maximiliano González Lopez_ | <img src="../imagenes/Maximiliano.png" width="200">|
+| _Aura Jhosceline Hurtado Botero_ | <img src="../imagenes/Aura Hurtado.png" width="200"> |
